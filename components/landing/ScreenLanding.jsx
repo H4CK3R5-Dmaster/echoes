@@ -15,8 +15,8 @@ const ScreenComponent = () => {
         <Center>
           <Box textAlign="center">
             <Image src="/logo.png" alt="Logo" boxSize="250px" mx="auto" borderRadius={"25%"} />
-            <Text color="#fff" fontSize="xl" mt={4}>
-              Titre du Composant
+            <Text color="#fff" fontSize={64} mt={4} >
+                Echœs &#123; FR RP &#125;
             </Text>
           </Box>
         </Center>
