@@ -12,6 +12,7 @@ export default function PublicLayout({ children }) {
         <title>Echoes</title>
         <meta name="description" content="Echoes { FR RP }, French rôle play !" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="/logo.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ChakraProvider theme={theme}>
