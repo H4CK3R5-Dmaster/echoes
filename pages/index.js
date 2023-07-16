@@ -6,6 +6,7 @@ import { Text } from '@chakra-ui/react'
 import ContainerBlock from '@/components/ContainerBlock'
 import ScreenComponent from '@/components/landing/ScreenLanding'
 import GridCard from '@/components/landing/GridCart'
+import SliderCard from '@/components/landing/Slider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home() {
     <ContainerBlock>
       <ScreenComponent/>
       <GridCard/>
+      <SliderCard/>
     </ContainerBlock>
   )
 }

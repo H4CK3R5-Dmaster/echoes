@@ -17,15 +17,16 @@ const GridCard = () => {
       title: "Titre 3",
       description: "Description 3",
     },
+    
   ];
 
   return (
-    <Box mt={"40"}>
+    <Box mt={"40"} mb={40}>
       <Heading as="h2" size="2xl" textAlign="center" mb={20} color={"#5165F6"}>
         Gros Titre
       </Heading>
 
-      <Grid templateColumns="repeat(3, 1fr)" gap={6} mx={10}>
+      <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} mx={10}>
         {data.map((item, index) => (
           <Box key={index} bg="#5165F6" p={4} borderRadius="md" boxShadow="md">
             <Image src={item.imageSrc} alt="Image" height={60} width={"2xl"}/>
