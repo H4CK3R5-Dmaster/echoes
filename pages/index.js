@@ -4,13 +4,14 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Text } from '@chakra-ui/react'
 import ContainerBlock from '@/components/ContainerBlock'
+import ScreenComponent from '@/components/landing/ScreenLanding'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <ContainerBlock>
-      hello
+      <ScreenComponent/>
     </ContainerBlock>
   )
 }
