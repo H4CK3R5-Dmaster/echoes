@@ -63,7 +63,7 @@ const SliderCard = () => {
     };
 
     return (
-        <Box maxWidth="70%" mx={[20, 64]} mt={20}>
+        <Box maxWidth={["80%","70%"]} mx={[20, 64]} mt={20}>
             <Heading as="h2" size="2xl" textAlign="center" mb={20} color={"#5165F6"}>
                 Gros Titre
             </Heading>
