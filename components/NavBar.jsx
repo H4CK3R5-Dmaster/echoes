@@ -6,14 +6,23 @@ import { useState, useEffect } from "react";
 const Navbar = () => {
   const { isOpen, onToggle } = useDisclosure();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setShowDropdown(!showDropdown);
+  };
+
+  const handleDropdownClose = () => {
+    setShowDropdown(false);
+  };
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    const isScrolled = currentScrollY > 50;
+    setIsScrolled(isScrolled);
+  };
 
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      const isScrolled = currentScrollY > 50;
-      setIsScrolled(isScrolled);
-    };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -51,17 +60,53 @@ const Navbar = () => {
               <NextLink href={"/"}>Accueil</NextLink>
             </Box>
             <Box mx={4}>
-              <NextLink href={"/"}>Projets</NextLink>
+              <Box
+                onMouseEnter={handleDropdownToggle}
+                onMouseLeave={handleDropdownClose}
+                position="relative"
+              >
+                <NextLink href={"/"}>Informations</NextLink>
+                {showDropdown && (
+                  <Box
+                    position="absolute"
+                    top="100%"
+                    left={0}
+                    width="100%"
+                    py={2}
+                    bg="#5165F6"
+                    boxShadow="md"
+                    zIndex="dropdown"
+                  >
+                    <Flex direction="column" color="white" fontSize={"14"}>
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/histoire"}>Histoire</NextLink>
+                      </Box>
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/concepte"}>Concepte</NextLink>
+                      </Box>
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/personnages"}>Personnages</NextLink>
+                      </Box>
+                    </Flex>
+                  </Box>
+                )}
+              </Box>
             </Box>
             <Box mx={4}>
-              <NextLink href={"/"}>Contact</NextLink>
+              <NextLink href={"/"}>Règle</NextLink>
+            </Box>
+            <Box mx={4}>
+              <NextLink href={"/"}>Commandes</NextLink>
+            </Box>
+            <Box mx={4}>
+              <NextLink href={"/"}>Fun</NextLink>
             </Box>
           </Flex>
         </Box>
         <IconButton
           icon={<HamburgerIcon />}
           variant="ghost"
-          colorScheme="black"
+          colorScheme="#5165F6"
           size="md"
           aria-label={isOpen ? "Close menu" : "Open menu"}
           display={{ base: "block", md: "none" }}
@@ -69,13 +114,43 @@ const Navbar = () => {
         />
       </Flex>
       <Collapse in={isOpen} animateOpacity>
-        <Box mt={4}>
+        <Box mt={4} bg={"#5165F6"}>
           <Flex direction="column" color="white">
             <Box mx={4} my={2}>
               <NextLink href={"/"}>Accueil</NextLink>
             </Box>
             <Box mx={4} my={2}>
-              <NextLink href={"/"}>Projets</NextLink>
+              <Box
+                onMouseEnter={handleDropdownToggle}
+                onMouseLeave={handleDropdownClose}
+                position="relative"
+              >
+                <NextLink href={"/"}>Informations</NextLink>
+                {showDropdown && (
+                  <Box
+                    position="absolute"
+                    top="100%"
+                    left={0}
+                    width="100%"
+                    py={2}
+                    bg="#5165F6"
+                    boxShadow="md"
+                    zIndex="dropdown"
+                  >
+                    <Flex direction="column" color="white">
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/histoire"}>Histoire</NextLink>
+                      </Box>
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/concepte"}>Concepte</NextLink>
+                      </Box>
+                      <Box mx={4} my={2}>
+                        <NextLink href={"/personnages"}>Personnages</NextLink>
+                      </Box>
+                    </Flex>
+                  </Box>
+                )}
+              </Box>
             </Box>
             <Box mx={4} my={2}>
               <NextLink href={"/"}>Contact</NextLink>
