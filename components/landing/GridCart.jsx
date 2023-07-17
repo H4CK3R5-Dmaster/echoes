@@ -26,9 +26,9 @@ const GridCard = () => {
         Gros Titre
       </Heading>
 
-      <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} mx={10}>
+      <Grid templateColumns={["repeat(1, 1fr)","repeat(3, 1fr)"]} gap={6} mx={20}>
         {data.map((item, index) => (
-          <Box key={index} bg="#5165F6" p={4} borderRadius="md" boxShadow="md">
+          <Box key={index} bg="#5165F6" p={8} borderRadius="md" boxShadow="md" >
             <Image src={item.imageSrc} alt="Image" height={60} width={"2xl"}/>
             <Heading as="h3" size="md" mt={8} >
               {item.title}
