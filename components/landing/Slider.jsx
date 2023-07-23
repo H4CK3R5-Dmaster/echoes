@@ -21,7 +21,7 @@ const SliderCard = () => {
       title: "Titre 3",
       description: "Description 3",
     },
-    // Ajoutez plus d'éléments de données si nécessaire
+    
   ];
 
   const settings = {

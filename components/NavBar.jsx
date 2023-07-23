@@ -85,7 +85,7 @@ const Navbar = () => {
                                                 <NextLink href={"/concepte"}>Concepte</NextLink>
                                             </Box>
                                             <Box mx={4} my={2}>
-                                                <NextLink href={"/personnages"}>Personnages</NextLink>
+                                                <NextLink href={"/personnages"}>Héros</NextLink>
                                             </Box>
                                         </Flex>
                                     </Box>
@@ -126,7 +126,7 @@ const Navbar = () => {
                             <NextLink href={"/concepte"}>Concepte</NextLink>
                         </Box>
                         <Box mx={4} my={2}>
-                            <NextLink href={"/personnages"}>Personnages</NextLink>
+                            <NextLink href={"/personnages"}>Héros</NextLink>
                         </Box>
                         <Box mx={4} my={2}>
                             <NextLink href={"/"}>Règle</NextLink>
