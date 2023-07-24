@@ -7,18 +7,18 @@ import "slick-carousel/slick/slick-theme.css";
 const SliderCard = () => {
   const data = [
     {
-      imageSrc: "/image1.jpg",
-      title: "Titre 1",
+      imageSrc: "/Mother-telling-story-to-her-daughter.svg",
+      title: "Histoire",
       description: "Description 1",
     },
     {
-      imageSrc: "/image2.jpg",
-      title: "Titre 2",
+      imageSrc: "/characters.svg",
+      title: "Héros",
       description: "Description 2",
     },
     {
-      imageSrc: "/image3.jpg",
-      title: "Titre 3",
+      imageSrc: "/map.svg",
+      title: "Carte",
       description: "Description 3",
     },
     
@@ -54,7 +54,7 @@ const SliderCard = () => {
               <Flex height="100%" display="flex" flexDirection="column" justifyContent="space-between" align="center"
       justify="center"
       direction="column">
-                <Image src={item.imageSrc} alt="Image" objectFit="cover" borderRadius="md" />
+                <Image src={item.imageSrc} alt="Image" objectFit="cover" borderRadius="md" width={"30%"}/>
                 <Box p={2}>
                   <Heading as="h3" size="md" textAlign="center" mt={4}>
                     {item.title}
