@@ -21,6 +21,16 @@ const SliderCard = () => {
       title: "Carte",
       description: "Description 3",
     },
+    {
+      imageSrc: "/concept.svg",
+      title: "Concepte",
+      description: "Description 3",
+    },
+    {
+      imageSrc: "/rules.svg",
+      title: "Règles",
+      description: "Description 3",
+    },
     
   ];
 
@@ -45,16 +55,16 @@ const SliderCard = () => {
   return (
     <Box maxWidth="100%" mx={10}>
       <Heading as="h2" size="2xl" textAlign="center" mb={20} color={"#5165F6"}>
-        Gros Titre
+        Ce qu&apos;il faut savoir !
       </Heading>
       <Box m={8}>
         <Slider {...settings}>
           {data.map((item, index) => (
-            <Box key={index} p={4} bg="#5165F6" borderRadius="md" boxShadow="md" marginRight={4}>
+            <Box key={index} p={4} bg="#5165F6" borderRadius="md" boxShadow="md" marginRight={4} >
               <Flex height="100%" display="flex" flexDirection="column" justifyContent="space-between" align="center"
       justify="center"
       direction="column">
-                <Image src={item.imageSrc} alt="Image" objectFit="cover" borderRadius="md" width={"30%"}/>
+                <Image src={item.imageSrc} alt="Image" objectFit="cover" borderRadius="md" width={"35%"} height={"45%"}/>
                 <Box p={2}>
                   <Heading as="h3" size="md" textAlign="center" mt={4}>
                     {item.title}
