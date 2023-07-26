@@ -79,7 +79,7 @@ const Navbar = () => {
                                     >
                                         <Flex direction="column" color="white" fontSize={"14"}>
                                             <Box mx={4} my={2}>
-                                                <NextLink href={"/histoire"}>Histoire</NextLink>
+                                                <NextLink href={"/informations/histoires"}>Histoire</NextLink>
                                             </Box>
                                             <Box mx={4} my={2}>
                                                 <NextLink href={"/concepte"}>Concepte</NextLink>
