@@ -1,0 +1,40 @@
+{
+    "links":[
+        {
+            "link": "/informations/histoires",
+            "description":"",
+            "titre":"Histoires",
+            "image":""
+        },
+        {
+            "link": "/informations/concepte",
+            "description":"",
+            "titre":"Concepte",
+            "image":""
+        },
+        {
+            "link": "/informations/heroes",
+            "description":"",
+            "titre":"Héros",
+            "image":""
+        },
+        {
+            "link": "/rules",
+            "description":"",
+            "titre":"Règles",
+            "image":""
+        },
+        {
+            "link": "/commands",
+            "description":"",
+            "titre":"Commandes",
+            "image":""
+        },
+        {
+            "link": "/fun",
+            "description":"",
+            "titre":"Fun",
+            "image":""
+        }
+    ]
+}

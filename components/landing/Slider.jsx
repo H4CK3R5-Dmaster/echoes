@@ -91,6 +91,7 @@ const SliderCard = () => {
               borderRadius="md"
               boxShadow="md"
               marginRight={4}
+              color={"white"}
             >
               <NextLink href={item.link}>
                 <Flex

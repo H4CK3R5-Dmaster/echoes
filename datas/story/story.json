@@ -1,0 +1,22 @@
+{
+    "storys":[
+        {
+            "storyid":"teststory",
+            "title": "test",
+            "description": "testdescribe",
+            "image": "/images.png"
+        },
+        {
+            "storyid":"teststory2",
+            "title": "test2",
+            "description": "testdescribe2",
+            "image": "/images2.png"
+        },
+        {
+            "storyid":"teststory3",
+            "title": "test3",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        }
+    ]
+}

@@ -65,7 +65,7 @@ const Navbar = () => {
                                 onMouseLeave={handleDropdownClose}
                                 position="relative"
                             >
-                                <NextLink href={"/"}>Informations</NextLink>
+                                <NextLink href={"/informations"}>Informations</NextLink>
                                 {showDropdown && (
                                     <Box
                                         position="absolute"

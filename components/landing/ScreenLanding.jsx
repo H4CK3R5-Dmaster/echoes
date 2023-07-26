@@ -2,7 +2,7 @@ import { Box, Center, Image, Text } from "@chakra-ui/react";
 
 const ScreenComponent = () => {
   return (
-    <Box bg="#000">
+    <Box bg="#2A2B2E">
       <Box
         minHeight="100vh"
         bg={`url('/screen.gif')`}
