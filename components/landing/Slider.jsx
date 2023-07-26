@@ -12,7 +12,7 @@ const SliderCard = () => {
       title: "Histoire",
       description: "Description 1",
       height: "20%",
-      link:"/"
+      link:"/informations/histoires"
     },
     {
       imageSrc: "/characters.svg",
