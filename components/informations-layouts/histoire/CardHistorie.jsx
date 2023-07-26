@@ -41,9 +41,10 @@ const CardHistorie = () => {
               alt="Image de la carte"
               boxSize="150px"
               mx="auto"
+              borderRadius={10}
             />
             <Text fontSize="xl" fontWeight="bold" mt={4} textAlign="center" color={"white"}>
-              {item.titre}
+              {item.title}
             </Text>
             <Text mt={2} textAlign="center" color={"white"}>
               {item.description}

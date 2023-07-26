@@ -1,20 +1,62 @@
 {
     "storys":[
         {
-            "storyid":"teststory",
-            "title": "test",
-            "description": "testdescribe",
-            "image": "/images.png"
+            "storyid":"valentiastory",
+            "title": "L’histoire de Valentia:",
+            "description": "Découvrez les différentes ères !",
+            "image": "/icons-info/298p.gif"
         },
         {
-            "storyid":"teststory2",
-            "title": "test2",
-            "description": "testdescribe2",
-            "image": "/images2.png"
+            "storyid":"primordialdragon",
+            "title": "Dragon primordiaux",
+            "description": "Voici les histoires des dragons primordiaux !",
+            "image": "/icons-info/dragon.png"
         },
         {
-            "storyid":"teststory3",
-            "title": "test3",
+            "storyid":"oldfamilyofworld",
+            "title": "Les Grandes anciennes familles du monde",
+            "description": "Voici les histoires des anciennes grandes familles !",
+            "image": "/icons-info/tree.png"
+        },
+        {
+            "storyid":"religions",
+            "title": "Les religions",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        },
+        {
+            "storyid":"skycityeuphoria",
+            "title": "Euphoria, la citée nuage",
+            "description": "testdescribe3",
+            "image": "/icons-info/sky.png"
+        },
+        {
+            "storyid":"underwaterworld",
+            "title": "Le royaume sous-marin, l’Atlantide",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        },
+        {
+            "storyid":"stellaireculte",
+            "title": "Le culte du corps stellaire",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        },
+        {
+            "storyid":"horizon",
+            "title": "Horizon",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        },
+        {
+            "storyid":"acxarstory",
+            "title": "L’histoire d’Acxar",
+            "description": "testdescribe3",
+            "image": "/images.png3"
+        },
+        {
+            "storyid":"paelisstree",
+            "title": "L’arbre village Paëlïss",
             "description": "testdescribe3",
             "image": "/images.png3"
         }

@@ -12,7 +12,7 @@ const Screeninfohistorie = () => {
     <Box bg="#2A2B2E">
       <Box
         minHeight="80vh"
-        bg={`url('/screen.gif')`}
+        bg={`url('/icons-info/WE2J.gif')`}
         backgroundSize="cover"
         backgroundPosition="center"
         display="flex"
