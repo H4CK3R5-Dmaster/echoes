@@ -1,64 +1,110 @@
 {
     "storys":[
         {
-            "storyid":"valentiastory",
+            "storyid": "valentiastory",
             "title": "L’histoire de Valentia:",
             "description": "Découvrez les différentes ères !",
-            "image": "/icons-info/298p.gif"
-        },
+            "image": "/icons-info/horloge.jpg",
+            "details": [
+              {
+                "titles": "L’Ère du Chaos",
+                "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."
+              },
+              {
+                "titles": "L’Ère de l’évolution",
+                "content": "Une nouvelle époque commença. Les êtres évoluèrent et acquirent de nouvelles compétences. Leur développement proche de la source de tout pouvoir, la lumière, favorisa l’obtention de pouvoirs incommensurables. Devant l’apparition de personnes capables de modeler la terre à leur guise, de travailler le fer à la main ou encore de déchaîner les flammes et les ouragans sur les monstres, les hauts placés, après une réunion au sommet de ce monde décidèrent dans une pensée prophétique d’instaurer 3 règles fondamentales :\\n- ℌ𝔬𝔪𝔪𝔢 𝔢𝔱 𝔣𝔢𝔪𝔪𝔢 𝔧𝔞𝔪𝔞𝔦𝔰 𝔫𝔢 𝔡𝔬𝔦𝔳𝔢𝔫𝔱 𝔰𝔢 𝔰𝔢́𝔭𝔞𝔯𝔢𝔯\\n- ℌ𝔬𝔪𝔪𝔢 𝔢𝔱 𝔣𝔢𝔪𝔪𝔢 𝔧𝔞𝔪𝔞𝔦𝔰 𝔫𝔢 𝔡𝔬𝔦𝔳𝔢𝔫𝔱 𝔰𝔢 𝔟𝔞𝔱𝔱𝔯𝔢\\n- ℌ𝔬𝔪𝔪𝔢 𝔢𝔱 𝔣𝔢𝔪𝔪𝔢 𝔧𝔞𝔪𝔞𝔦𝔰 𝔫𝔢 𝔡𝔬𝔦𝔳𝔢𝔫𝔱 𝔲𝔱𝔦𝔩𝔦𝔰𝔢𝔯 𝔩𝔞 𝔩𝔲𝔪𝔦𝔢̀𝔯𝔢. 𝔈𝔩𝔩𝔢 𝔢𝔰𝔱 𝔰𝔬𝔲𝔯𝔠𝔢 𝔡𝔢 𝔱𝔢́𝔫𝔢̀𝔟𝔯𝔢𝔰.\\n Ces mots retentirent comme le glas de leur union et de leur paix si jamais l’une des règles n’étaient point respecter. Ces prophètes avaient vu juste, la lumière si pure, à force d’usage, commençait à refléter disgrâce et chaos. Voyant leur phare sombrait, ces prophètes décidèrent de sceller la lumière, dans une orbe d’or qu’ils gardèrent dans un temple reculé. La paix ne fut plus menacée et l’évolution n’avait jamais été aussi grande."
+              },
+              {
+                "titles": "L’Ère de la corruption",
+                "content": "Homme et femme, autrefois doux et pacifistes commencèrent à régler leur problème par la force. Des pénuries, des problèmes de ressources étaient de plus en plus ingérables à cause du grand nombre. Les prophètes ne trouvant plus de solution et surtout atteints par la corruption du cœur des citoyens, décidèrent de se retirer. Leur acte était vu par tous comme de la lâcheté, ils leur avaient imposés des règles qu’ils avaient respectés, ils leur avaient pris leurs ressources et leurs pouvoirs, la lumière. Les problèmes s’enchaînèrent et les tensions entre espèces s’installèrent. Il n’était pas rare de voir des disputes parce que l’autre était différent de nous. Le racisme poussa la civilisation à se séparer en 3 grands groupes: Humain, Démon, Cryptide. Les humains n’avaient pas spécialement d’attributs mais étaient les plus proches de la lumière. Les démons et les cryptides, quant à eux, partirent bâtir leurs propres civilisations. Ils évoluèrent tous de leurs côtés oubliant leur haine envers les hommes, ils furent tous plus heureux. Les prophètes comprirent ce qu’il se passait. La lumière assombrissait le cœur des hommes par l’intermédiaire de leurs noyaux d’ors. Les démons et cryptides étaient trop loin de la source pour que la corruption les touche. Les prophètes eux aussi commencèrent à se corrompre et c’est après une centaine d’années que la boucherie commença. Les prophètes se suicidèrent pour ne pas succomber à leur vice sauf un. Il décida, après avoir trompé la mort ainsi que les autres de prendre la lumière qui chaque nuit, lui chuchotait :\\n- 𝕮𝖔𝖓𝖖𝖚𝖎𝖙 𝖈𝖊 𝖒𝖔𝖓𝖉𝖊, 𝕴𝖑 𝖙’𝖆𝖕𝖕𝖆𝖗𝖙𝖎𝖊𝖓𝖙, 𝖙𝖚 𝖊𝖘 𝖚𝖓 𝖊́𝖑𝖚. 𝕿𝖚 𝖊𝖘 𝖑𝖊 𝖉𝖊́𝖙𝖊𝖓𝖙𝖊𝖚𝖗 𝖉𝖊 𝖑𝖆 𝖑𝖚𝖒𝖎𝖊̀𝖗𝖊.\\nLe prophète fut sous l’emprise de la lumière. Il prit l’orbe et descella la lumière emprisonné, il décida ensuite de fusionner avec cette source de pouvoir. Le prophète obtient son 6ème art mystique, l’art de la lumière. Il bâtit avec quelques adeptes sous son influence, au centre de Valentia, un temple souterrain, il construisit également des galeries immenses. Il avait tout le sous-sol de Valentia pour lui. Et son plan fut en marche. Le cœur de tous les êtres vivants commencèrent à se corrompre petit à petit. "
+              },
+              {
+                "titles":"La guerre millénaire",
+                "content":"Des centaines d’années de corruptions, disputes, et de conquêtes, c’était le quotidien de Valentia. Ces terres sombrèrent de nouveau, de plus en plus de guerres se faisaient entre espèces mais un drame frappa le paix. La mort de Claudia, la princesse aux chevelure d’or. Claudia était une jeune princesse orpheline et recueillie par le roi grâce à sa beauté. Elle fut éduquée pour être un modèle dans la société. Elle avait un pouvoir unique et incommensurable: elle possédait un cœur d’une pureté inégalée. Elle avait le pouvoir d’apaiser le cœur des hommes, des démons et des cryptides. Voyant le pouvoir de Claudia nuire ses plans, le prophète corrompu décida d’éliminer cette princesse. Il savait le secret de la princesse, elle côtoyait secrètement deux jeunes hommes, Diluc prince des démons à cet époque et Sorin noble vampire qui devait devenir le roi des cryptides. Lors d’une des rencontres nocturnes, la lumière fit suivre un groupe d’hommes, de démons et de cryptides. Prise au grand jour, la guerre fut sonné. Chaque espèce voulait en découdre avec l’autre. Au début, Diluc, Sorin et Claudia essayèrent de calmer les tensions et ils réussirent grâce à l’intervention de Claudia en publique qui dans un discours haut en émotion apaisa le cœur des autres mais ce fit de courte durée et le drame se produisit. Elle fut tué par un sort inconnu. Certains disent que c’était les démons et d’autres les cryptides."
+              }
+            ]
+          }
+          ,
         {
             "storyid":"primordialdragon",
             "title": "Dragons primordiaux",
             "description": "Voici les histoires des dragons primordiaux !",
-            "image": "/icons-info/dragon.png"
+            "image": "/icons-info/dragon.png",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": ""}
+            ]
         },
         {
             "storyid":"oldfamilyofworld",
             "title": "Les Grandes anciennes familles du monde",
             "description": "Voici les histoires des anciennes grandes familles !",
-            "image": "/icons-info/tree.png"
+            "image": "/icons-info/tree.png",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"religions",
             "title": "Les religions",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/icons-info/religion.png",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"skycityeuphoria",
             "title": "Euphoria, la citée nuage",
             "description": "testdescribe3",
-            "image": "/icons-info/sky.png"
+            "image": "/icons-info/sky.png",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"underwaterworld",
             "title": "Le royaume sous-marin, l’Atlantide",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/images.png3",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"stellaireculte",
             "title": "Le culte du corps stellaire",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/images.png3",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"horizon",
             "title": "Horizon",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/images.png3",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"acxarstory",
             "title": "L’histoire d’Acxar",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/images.png3",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         },
         {
             "storyid":"paelisstree",
             "title": "L’arbre village Paëlïss",
             "description": "testdescribe3",
-            "image": "/images.png3"
+            "image": "/images.png3",
+            "details": [
+                {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
+            ]
         }
     ]
 }
