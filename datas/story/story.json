@@ -82,7 +82,7 @@
             "storyid":"underwaterworld",
             "title": "Le royaume sous-marin, l’Atlantide",
             "description": "testdescribe3",
-            "image": "/images.png3",
+            "image": "/icons-info/watercity.png",
             "details": [
                 {"titles":"L’Ère du Chaos", "content": "À la base du monde d’Echœs, il n’y avait rien de bien particulier. Cette terre était dépourvue de toute civilisation ou même de ressources. On appelait cette ère qui dura des milliers d’années : L’Ère du chaos. Mais, par des probabilités infimes ou une erreur du destin, la vie surgit des méandres des terres désolées, et apporta avec elle la lumière, source de pouvoir infini. Les premiers êtres avaient dû survivre et se développer d’eux mêmes pendant des milliers d’années et ils décidèrent d’utiliser la lumière en tant que guide. L’Ère du Chaos prit fin lorsque ces êtres trouvèrent les ressources et les techniques pour survivre à l’environnement hostile."}
             ]
