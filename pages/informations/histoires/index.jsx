@@ -3,11 +3,13 @@ import CardHistorie from "@/components/informations-layouts/histoire/CardHistori
 import Screeninfohistorie from "@/components/informations-layouts/histoire/Screeninfohistorie";
 import Footer from "@/components/Footer";
 
+
 export default function Stories() {
   return (
     <ContainerBlock>
       <Screeninfohistorie />
       <CardHistorie />
+     
       <Footer/>
     </ContainerBlock>
   );
