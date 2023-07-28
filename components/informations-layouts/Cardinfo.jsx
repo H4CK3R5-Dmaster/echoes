@@ -34,12 +34,12 @@ const CardInfo = () => {
             boxShadow="md"
             flexBasis="30%" // Définissez la largeur des cartes pour s'ajuster à trois cartes sur la même ligne
             my={2}
-            mx={[0,8]} // Marge verticale entre les cartes
+            mx={[0,4]} // Marge verticale entre les cartes
           >
             <Image
               src={item.image}
               alt="Image de la carte"
-              boxSize="150px"
+              boxSize="250px"
               mx="auto"
             />
             <Text fontSize="xl" fontWeight="bold" mt={4} textAlign="center" color={"white"}>

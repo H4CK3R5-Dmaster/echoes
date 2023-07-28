@@ -40,7 +40,7 @@ const CardHistorie = () => {
             boxShadow="md"
             flexBasis="30%"
             my={2}
-            mx={[0, 8]}
+            mx={[0,4]}
           >
             <NextLink
               key={item.storyid}
